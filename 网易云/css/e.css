@@ -1,0 +1,33 @@
+body,header,div,dl,dt,dd,img,ul,li,a,span,h4,main,footer,p{margin: 0;padding: 0;}
+li{list-style: none;}
+a{text-decoration: none; color: black;}
+.fl{float: left;}
+.fr{float: right;}
+.clearfix:after{content: " ";  /*加一段内容*/
+display: block;	 /*让生成的元素以块级元素显示，占满剩余空间*/
+height: 0;			/*避免生成的内容破坏原有布局高度*/
+clear: both;		/*清除浮动*/
+visibility: hidden;		/*让生成的内容不可见*/
+}
+body{background: #EFF0F2;}
+header{width: 100%;height: 110px; background: #DE4138;}
+header>dl>dt>a>img{width: 40px; margin-top: 17px; margin-left: 20px; margin-right: 22px;}
+header>dl>dd>a>img{width: 35px; margin-top: 15px; margin-left: 10px;}
+header>dl>div>a>img{width: 40px;margin-top: 17px; margin-right: 20px;}
+header>.box1{ width: 100%; margin: 20px auto;}
+header>.box1>a{color: #FBC1BD;  margin-left: 20px;
+ margin-top: 30px;}
+header>.box1>a:nth-of-type(1) {color: #FFF9F9; border-bottom: 3px solid #FFF9F9; padding-bottom: 5px; margin-left: 15px; font-weight: bold;}
+main{width: 100%;}
+main>.box2{width: 100%; border-bottom: 1px solid #EFF0F2; padding-bottom: 10px;background: #FBFCFE;}
+main>.box2>img{width: 96%; margin-left: 2%; margin-top: 5px;}
+main>.box2>p{margin-left: 2%; font-size: 14px;}
+main>.box3{width: 100%;background: #FBFCFE; margin-bottom: 5px;}
+main>.box3>img:nth-of-type(1) {width: 15%; margin-left: 2%;}
+main>.box3>span{font-size: 14px;color: #474747; position: relative; top: -15px;} main>.box3>img:nth-of-type(2) {width: 41%; height: 40px; float: right;}
+footer{width: 100%;height: 50px; background: url(../images/footer.jpg); background-size: 100% 100%; position: fixed; bottom: 0;} 
+ @media(min-width: 375px){
+	header>dl>dt>a>img{margin-right: 32px;}
+	header>dl>dd>a>img{margin-left: 20px;}
+	header>.box1>a{margin-left: 30px;}
+}
