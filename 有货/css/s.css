@@ -46,3 +46,35 @@ footer>.mid>p{text-align: right;}
 footer>.left{color: #B6B6B6}
 footer>.mid>.hong{color: #D8253B;}
 footer>.mid>.xz{color:#B6B6B6;font-size: 0.7rem;}
+
+@media(min-width:375px){
+    .box-1>.left>a{color: #fff; display: block; font-weight: bold; font-size: 1.5rem; font-family: '黑体';margin-left: 94%;}
+    .box-1>.right{margin-right: 5%; font-size: 0.7rem;}
+    main>ul>li>.left>.small-p{width: 20%; margin-left: 8%; position: relative; top: -35%;}
+    main>ul>li>.left>.big-p{width: 47%; margin-left:2%; margin-top: 2%;}
+    main>ul>li>.mid>.title{font-size: 0.9rem; margin-top:2%;}
+    main>ul>li>.mid>.ccc{font-size:0.7rem; color: #B6B6B6; margin-top: 2.5%;}
+    main>ul>li>.mid>.red{font-size:0.5rem; color: red; margin-top:2.5%;}
+    main>ul>li>.right>p{font-size: 0.2rem; color:#ccc; margin-top: 30%;}
+    main>.box-5{width: 100%; height: 600px; background: #fff; margin-top: 10px; }
+    main>.box-5>.box-6>.a-1{width: 47%; height: 250px;margin-left: 3%;}
+    main>.box-5>.box-6>.a-1>img{width: 70%;display: block;margin: 0 auto;}
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
