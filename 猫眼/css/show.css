@@ -1,0 +1,148 @@
+body,div,ul,li,a,img,p,span,dl,dt,dd,h3 {margin: 0;padding: 0;list-style: none;text-decoration: none}
+.fl{float: left}
+.fr{float: right} 
+.clearfix:after{content: " ";  /*加一段内容*/
+    display: block;	 /*让生成的元素以块级元素显示，占满剩余空间*/
+    height: 0;			/*避免生成的内容破坏原有布局高度*/
+    clear: both;		/*清除浮动*/
+    visibility: hidden;		/*让生成的内容不可见*/
+    }
+a{
+    text-decoration: none;
+    color: #5D5D5D;
+}
+header{
+    width: 100%;
+    height: 50px;
+}
+header>div{    
+    width: 100%;
+    height: 50px;
+    background: #E54847;        
+    text-align: center;
+}
+header>div>img{
+    margin-top: 3%;
+    width: 6%;
+    margin-left: 2%;
+}
+header>div>span{
+        color: #fff;
+        font-size: 18px;
+        line-height: 50px;
+    }
+main>#box1{
+    width: 100%;
+    height: 180px;
+    background: #ccc;
+}
+main>#box1>a>dl{
+    width: 90%;
+}
+main>#box1>a>dl>dt{
+    width: 38%;
+    height:180px;
+    padding-top: 5%;
+    margin-left: 5%;
+}
+main>#box1>a>dl>dt,main>#box1>a>dl>dd{
+    float: left
+}
+main>#box1>a>dl>dt>img{
+    width: 110px;
+    height: 150px;
+}
+main>#box1>a>dl>dd{
+    margin-top: 5%;
+    margin-left: 2%;
+}
+main>#box1>a>dl>dd>h3{
+    color: #fff;
+}
+main>#box1>a>dl>dd>p{
+    color: black;
+    font-size: 12px;
+    margin-top:5px;
+}
+main>#box1>a>dl>dd>p>span{
+    color: #FFCC00;
+    font-size: 16px;
+    font-weight: bold;
+}
+main>#box1>a>dl>dd>p>img{
+    width: 42px;
+    height: 13.13;
+    margin-left: 3px;
+    margin-top: 2px;
+}
+main{
+    width: 100%;
+}
+main>#box2{
+    width: 100%; overflow-x: scroll;
+}
+main>#box2>ul{
+    width: 200%;
+    height: 40px;
+}
+main>#box2>ul>li{
+    width: 20%;
+    height: 40px;
+    float: left;
+}
+main>#box2>ul>li:nth-child(1)>p{
+    color: #F3645F;
+    border-bottom: 2px solid #F3645F;
+}
+main>#box2>ul>li>p{
+    text-align: center;
+    line-height: 40px;
+}
+main>#box3{
+    width: 100%;
+}
+main>#box3>ul{
+    width: 100%;
+}
+main>#box3>ul>li{
+    width: 32.7%;
+    float: left;
+    height: 40px;
+
+}
+main>#box3>ul>li>p{
+    text-align: center;
+    line-height: 40px;
+    color: #A0A0A0;
+    font-size: 14px;
+}
+main>#box4{
+    width: 100%;
+    height: 200px;
+    border: 1px solid red;
+}
+main>#box4>p{
+    color: #000000;
+    margin-left: 3%;
+    font-size: 14px;
+}
+main>#box4>p>span{
+    color: #F04842;
+    font-size: 16px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

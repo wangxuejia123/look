@@ -1,0 +1,192 @@
+body,div,ul,li,a,img,p,span,dl,dt,dd,h4{margin: 0;padding: 0;list-style: none;text-decoration: none}
+.fl{float: left}
+.fr{float: right} 
+.clearfix:after{content: " ";  /*加一段内容*/
+    display: block;	 /*让生成的元素以块级元素显示，占满剩余空间*/
+    height: 0;			/*避免生成的内容破坏原有布局高度*/
+    clear: both;		/*清除浮动*/
+    visibility: hidden;		/*让生成的内容不可见*/
+    }
+a{
+    text-decoration: none;
+    color: #5D5D5D;
+}
+body{
+    padding-top: 100px;
+}
+header{
+    width: 100%;
+    height: 100px;
+    position: fixed;
+    top: 0;
+}
+header>div{
+    width: 100%;
+    height: 50px;
+    background: #E54847;
+}
+header>div>p{
+    color: #fff;
+    font-size: 18px;
+    text-align: center;
+    line-height: 50px;
+}
+header>ul{
+    width: 100%;
+    height:40px;
+    border-bottom: 1px solid #E6E6E6;
+    background: #fff;
+}
+header>ul>li{
+    float: left;
+    width: 30%;
+    height: 40px;
+    line-height: 40px;
+    text-align: center;
+    font-weight: bold;
+    font-size: .9em;
+}
+header>ul>li:nth-child(1){
+    width: 25%;
+}
+header>ul>li:nth-child(4){
+    width: 15%;
+}
+header>ul>li:nth-child(2){
+    color: #F1625A;
+    border-bottom: 2px solid #F1625A;
+}
+header>ul>li:nth-child(2) a{
+    color: #F1625A;
+} 
+header>ul>li>a>img{
+    width: 35%;
+    margin-top: 10px;
+}
+main>#box{
+    width: 100%;
+    height: 110px; 
+
+}
+main>#box>a>dl>dt,main>#box>dl>dd{
+    float: left;
+}
+main>#box>a>dl{
+    width: 80%;
+}
+main>#box>a>dl>dt{
+    width: 64px;
+    margin-left: 5%;
+    margin-top: 2.5%;
+}
+main>#box>a>dl>dt>img{
+    width: 64px;
+    height: 90px;
+}
+main>#box>a>dl>dd{
+    margin-left: 32%;
+    margin-top: 2.7%;
+}
+main>#box>a>dl>dd>h4{
+    float: left;
+}
+.box-3d-IMAX{
+    margin-left: 5px;
+    width: 43px;
+    height: 14px;
+}
+main>#box>a>dl>dd>p{
+    color: #666666;
+    font-size: 14px;
+}
+main>#box>a>dl>dd>p>span{
+    color: #FAAF00;
+}
+main>#box>a>#a1{
+    width: 20%;
+    height: 110px;
+
+}
+main>#box>a>#a1>p{
+    width: 50px;
+    height: 30px;
+    background: red;
+    color: #fff;
+    text-align: center;
+    line-height: 30px;
+    font-size: 14px;
+    margin-top: 40%;
+}
+main>#box>a>#a2{
+    width: 20%;
+    height: 110px;
+
+}
+main>#box>a>#a2>p{
+    width: 50px;
+    height: 30px;
+    background: #3C9FE6;
+    color: #fff;
+    text-align: center;
+    line-height: 30px;
+    font-size: 14px;
+    margin-top: 40%;
+}
+footer{
+    width: 100%;
+    height: 50px;
+    position: fixed;
+    bottom: 0;
+    background: #fff;
+}
+footer>ul{
+    width: 100%;
+    height: 50px;
+    display: flex;
+    flex-wrap:wrap;
+    justify-content: space-around;
+    align-items:center; 
+}
+footer>ul>li{
+ width: 30%;
+}
+footer>ul>li>a{
+    text-align: center;
+}
+footer>ul>li>a>p{
+    color:#696969;
+}
+footer>ul>li:nth-child(1)>a>p{
+    color: #F03D37;
+}
+footer>ul>li>a>img{
+    width: 20%;
+    height: 20px;
+    display: block;
+    margin: 0 auto;
+}
+.box-3d{
+    width: 20;
+    height: 14px;
+    margin-left: 5px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

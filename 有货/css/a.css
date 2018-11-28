@@ -1,0 +1,44 @@
+body,div.p,span,ul,li,a,img,input{margin: 0;padding: 0;}
+.fl{float: left}
+.fr{float: right}
+li{list-style: none}
+a{text-decoration: none;color: #000;}
+header{width: 100%;height: 45px; overflow: hidden;}
+header>.header-left{width: 45%;height: 100%; margin-left:2%;margin-top:1%;}
+header>.header-right{width: 42%;height: 60%;  margin: 2.5% 5% 3% 1%; border:1px solid #ccc;}
+header>.header-left>img{width: 100%;margin-left:3%;margin-top: 2%;}
+header>.header-right>input{display: block; float: left; width: 70%; height:100%; outline: none;border: none}
+header>.header-right>img{width: 18.94px;height: 18px; float: right; margin-top: 5px;margin: 4px;}
+header>span{float: left; margin-top:4%;margin-left:3%; color: #999999; font-size: 0.8rem;display:none}
+main>.main-1{width: 100%;height: 380px;background: url(../images/main.jpg);background-size: 100% 100%;padding-top: 100px;}
+main>.main-1>ul{width: 70%; height: 300px; margin: 0 auto;}
+/* main>.main-1>ul>li{width: 97%;height: 40px; margin: 20PX auto;background: black; border: 4px solid #fff; color: #fff; line-height: 40px; text-align: center} */
+main>.main-1>ul>li>a{display: block; width: 97%;height: 40px; margin: 20px auto; background: black; border: 4px solid #fff; color: #fff; line-height: 40px; text-align: center  }
+main>.main-1>ul>li>a>span{margin-right: 2%;}
+footer>.foot-top{width: 100%;height: 60px;line-height: 60px;}
+footer>.foot-top>span{margin-right: 8%; font-size: .8rem;}
+footer>.foot-top>span>img{width: 21.33px;height: 13px;margin-left:5px;}
+footer>.foot-top>a{margin-right: 30px;font-size: .7rem;}
+footer>.foot-top>a:nth-child(1) {margin-left: 6%;}
+footer>.foot-bot{width: 100%;height: 40px; background: #EEEEEE; padding-top: 2%;}
+footer>.foot-bot>p{text-align: center;font-size: .6rem; }
+@media(min-width:320px){
+
+} 
+@media(min-width:375px){
+    main>.main-1{height: 450px;}
+    main>.main-1{padding-top: 90px;}
+    main>.main-1>ul>li>a{margin: 35px auto;}
+ }
+ @media(min-width:414px){
+    main>.main-1{height: 500px;}
+    main>.main-1>ul>li>a{margin: 45px auto;}
+ }
+@media(min-height:812px){
+    main>.main-1{height: 540px;}
+    main>.main-1{padding-top: 120px;}
+    main>.main-1>ul>li>A{margin: 40px auto;}
+}
+
+
+

@@ -1,0 +1,54 @@
+body,div,p,span,ul,li,a,img,input,nav{margin: 0;padding: 0;}
+.fl{float: left}
+.fr{float: right}
+li{list-style: none}
+a{text-decoration: none;color: #000;}
+body{background:#F8F8F8;}
+.serch{width:100%;height: 30px; background: #fff; margin-top: 5px;border-radius: 50px; }
+.serch>a>img{width:8%;margin-left: 4%;margin-top: 1%; float: left;}
+.serch>a>p{color: #999999; line-height: 30px; float: left; font-size: 0.5rem;}
+.box-1{width: 100%;height: 40px; background: #fff;margin-top: 5px;border-bottom: 1px solid #ccc;}
+.box-1>ul{width: 100%;height:30px; }
+.box-1>ul>li{float: left;  height: 100%; width:25%;padding: .5rem 0; text-align: center;color: #ccc;}
+.box-1>ul>li>span{border-right: 1px solid #ccc; display: block; line-height: 1.5rem; width: 100%;}
+.co{color: #000;}
+main>.box-2{width: 100%;height: 800px;}
+main>.box-2>ul{width: 50%;}
+main>.box-2>ul>li{background: #F8F8F8;height: 2.8rem;line-height: 2.8rem; padding:0 .45rem;}
+main>.box-2>ul>li>a{display: block; width: 100%; height: 2.8rem;font-size: 0.8rem;}
+main>.box-2>ul>.wh{background: #FFFFFF;}
+/* main>.box-2>ul>li:hover{background: #fff;} */
+main>.box-2>div{width: 50%; height: 800px; overflow: hidden;}
+main>.box-2>div>p{width: 100%; height: 2.8rem; line-height: 2.8rem; background: #fff;border-top: 1px solid #ccc;maring-top
+:-1px;  padding: 0 .8rem; font-size: 0.8rem;}
+footer{width: 100%; height: 70px; background: #fff; border-top: 1px solid #ccc;position: fixed;bottom: 0;}
+footer>ul{width: 100%; height:70px;}
+footer>ul>li{float: left; width:20%;text-align: center;}
+footer>ul>li>a>img{width: 34px; height: 28px; margin-top: 15%;}
+footer>ul>li>a>p{margin-top: -3%;}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
