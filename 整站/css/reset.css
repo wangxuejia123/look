@@ -1,0 +1,315 @@
+@charset "utf-8";
+/* CSS Document */
+body,ul,li,p,h1,h2,h3,h4,h5,h6{ margin:0; padding:0}
+body{ font-size:12px; line-height:1.7em; color:#666;}
+ul{ list-style:none}
+img{ border:none}
+a{ text-decoration:none; color:black;}
+a:hover{ text-decoration:none;}
+.fl{ float:left}
+.fr{ float:right}
+.clear{ clear:both; overflow:hidden; height:0}
+.center{ width:1000px; margin:0 auto;}
+a:hover img {
+	filter: alpha(opacity=80);
+	opacity: 0.8;
+	-webkit-transition: all .2s linear;
+	-moz-transition: all .2s linear;
+	-ms-transition: all .2s linear;
+	transition: all .2s linear;
+}
+body{background: black;}
+#header{width: 100%;height: 600px;
+ background-image: url(../images/1.jpeg);background-size: 100%;}
+#header .nav{padding: 10px;}
+#header .nav .pic1 img{width: 180px; padding-left: 50px;}
+#header .nav .right{margin-right: 80px;  margin-top: 10px;}
+#header .nav .right ul{float: left; height: 20px;
+ overflow: hidden;margin-right: 30px;position: relative;transition: 10s; }
+#header .nav .right li{line-height: 20px;text-align:center;
+	position: relative; width: 100px;}
+#header .nav .right ul li a{color: #fff;font-size: 18px;}
+#header .nav .right ul:hover li{top: -20px;}
+#header .nav .right ul:hover li a{color: red;}
+#header .banner{margin: 250px; color: #fff;}
+#header .banner p{font-size: 40px; letter-spacing:10px; height: 40px;}
+#header .banner span{font-size: 20px;padding-top: 10px;}
+#content .words{width: 100%;height: 200px;}
+#content .words p:nth-of-type(1) {color: #fff; font-size: 35px; height: 30px; 
+	text-align: center; margin-top: 80px;}
+#content .words p:nth-of-type(2) {text-align: center; color: #fff; font-size: 18px;}
+#content .words p:nth-of-type(3) {text-align: center; font-size: 16px; margin-top: 18px;}
+#content .words p:nth-of-type(4) {text-align: center; font-size: 16px; margin-top: 5px;}
+#content .pic{width: 100%;height: 780px;}
+#content .pic .toPic{padding: 100px; padding-top: 0px;}
+#content .pic .toPic .pic1{width: 276px; height: 237px; background: #fff;
+ background: url(../images/Unknown.jpg)no-repeat; 
+ background-size: 100% 100%;padding-top: 90px; transition: 1s;margin-right: 15px;}
+#content .pic .toPic .pic1:hover{background: url(../images/Unknown.jpeg)no-repeat; background-size: 100% 100%;}
+#content .pic .toPic  .con{width: 276px; height: 186px; 
+	background: #9C0D0D; opacity:0.6;}
+#content .pic .toPic  p{text-align: center; color: #FFFFFF; font-size: 20px;height: 30px; 
+	position: relative; top: -150px; font-weight: bold;}
+#content .pic .toPic .pic2{width: 276px; height: 237px; background: #fff;
+ background: url(../images/Unknown-7.jpg)no-repeat; 
+ background-size: 100% 100%;padding-top: 90px;transition: 1s;margin-right: 15px;}
+#content .pic .toPic .pic2:hover{background: url(../images/Unknown-7.jpeg)no-repeat; background-size: 100% 100%;}
+#content .pic .toPic .pic3{width: 276px; height: 237px; background: #fff;
+ background: url(../images/Unknown-11.jpg)no-repeat; 
+ background-size: 100% 100%;padding-top: 90px;transition: 1s;margin-right: 15px;}
+#content .pic .toPic .pic3:hover{background: url(../images/Unknown-11.jpeg)no-repeat; background-size: 100% 100%;}
+#content .pic .toPic .pic4{width: 276px; height: 237px; background: #fff;
+ background: url(../images/Unknown-1.jpg)no-repeat; 
+ background-size: 100% 100%;padding-top: 90px;transition: 1s}
+#content .pic .toPic .pic4:hover{background: url(../images/Unknown-1.jpeg)no-repeat; background-size: 100% 100%;}
+#content .pic .boPic{margin-top: 350px;}
+#content .pic .boPic .box{width: 346px; height: 235px; 
+border: 1px solid #2D0000;position: relative;
+transition:.5s; margin-left: 100px; margin-right: 55px;}
+#content .pic .boPic .box .hp{background: rgba(0,0,0,.6); position: absolute; top: 0px; display: none;transition: 1s; margin: 0px 2px 0px 2px;}
+#content .pic .boPic .box div{width: 10px;height: 20px; }
+#content .pic .boPic .box:hover .hp{display: block; z-index: 77;}
+#content .pic .boPic .box div:nth-of-type(1) {border-top:1px solid red; border-left: 1px solid red; }
+#content .pic .boPic .box div:nth-of-type(2) {border-top:1px solid red; border-right: 1px solid red; position: absolute; top: 0px; right: 0px;}
+#content .pic .boPic .box div:nth-of-type(3) {border-bottom:1px solid red; border-left: 1px solid red; position: absolute; bottom: 0px;}
+#content .pic .boPic .box div:nth-of-type(4) {border-bottom:1px solid red; border-right: 1px solid red;position: absolute; bottom: 0px; right: 0px;}
+#content .pic .boPic .box p:nth-of-type(1) {text-align: center; font-size: 60px; height: 60px; position: absolute;left: 34%;top: 20%; z-index:99;}
+#content .pic .boPic .box p:nth-of-type(2) {text-align: center; font-size: 25px; height: 28px;position: absolute;top: 50%;left: 12%;  z-index:99;}
+#content .pic .boPic .box p:nth-of-type(3) {text-align: center; font-size: 18px;position: absolute;top: 62%;left: 2%; z-index:99;}
+#content .pic .boPic .box p:nth-of-type(4) {text-align: center; font-size: 25px;position: absolute;top: 80%;left: 43%; z-index:99;} 
+#content .pic .boPic .box:hover{background: url(../images/Unknown-12.jpeg);background-size: 100% 100%; color: #fff;}
+#content .pic .boPic .box2{width: 346px; height: 235px; 
+border: 1px solid #2D0000;position: relative;
+transition:.5s; margin-right: 55px;}
+#content .pic .boPic .box2 .hp2{background: rgba(0,0,0,.6); position: absolute; top: 0px; display: none;transition: 1s; margin: 0px 2px 0px 2px;}
+#content .pic .boPic .box2 div{width: 10px;height: 20px; }
+#content .pic .boPic .box2:hover .hp2{display: block; z-index: 77;}
+#content .pic .boPic .box2:hover{background: url(images/Unknown-12.jpeg); background-size: 100% 100%;}
+#content .pic .boPic .box2 div:nth-of-type(1) {border-top:1px solid red; border-left: 1px solid red; }
+#content .pic .boPic .box2 div:nth-of-type(2) {border-top:1px solid red; border-right: 1px solid red; position: absolute; top: 0px; right: 0px;}
+#content .pic .boPic .box2 div:nth-of-type(3) {border-bottom:1px solid red; border-left: 1px solid red; position: absolute; bottom: 0px;}
+#content .pic .boPic .box2 div:nth-of-type(4) {border-bottom:1px solid red; border-right: 1px solid red;position: absolute; bottom: 0px; right: 0px;}
+#content .pic .boPic .box2 p:nth-of-type(1) {text-align: center; font-size: 60px; height: 60px; position: absolute;left: 34%;top: 20%; z-index:99;}
+#content .pic .boPic .box2 p:nth-of-type(2) {text-align: center; font-size: 25px; height: 28px;position: absolute;top: 50%;left: 12%;  z-index:99;}
+#content .pic .boPic .box2 p:nth-of-type(3) {text-align: center; font-size: 18px;position: absolute;top: 62%;left: 7%; z-index:99;}
+#content .pic .boPic .box2 p:nth-of-type(4) {text-align: center; font-size: 25px;position: absolute;top: 80%;left: 43%; z-index:99;} 
+#content .pic .boPic .box2:hover{background: url(../images/Unknown-12.jpeg);background-size: 100% 100%; color: #fff;}
+#content .pic .boPic .box3{width: 346px; height: 235px; 
+border: 1px solid #2D0000;position: relative;
+transition:.5s; }
+#content .pic .boPic .box3 .hp3{background: rgba(0,0,0,.6); position: absolute; top: 0px; display: none;transition: 1s; margin: 0px 2px 0px 2px;}
+#content .pic .boPic .box3 div{width: 10px;height: 20px; }
+#content .pic .boPic .box3:hover .hp3{display: block; z-index: 77;}
+#content .pic .boPic .box3:hover{background: url(images/Unknown-12.jpeg); background-size: 100% 100%;}
+#content .pic .boPic .box3 div:nth-of-type(1) {border-top:1px solid red; border-left: 1px solid red; }
+#content .pic .boPic .box3 div:nth-of-type(2) {border-top:1px solid red; border-right: 1px solid red; position: absolute; top: 0px; right: 0px;}
+#content .pic .boPic .box3 div:nth-of-type(3) {border-bottom:1px solid red; border-left: 1px solid red; position: absolute; bottom: 0px;}
+#content .pic .boPic .box3 div:nth-of-type(4) {border-bottom:1px solid red; border-right: 1px solid red;position: absolute; bottom: 0px; right: 0px;}
+#content .pic .boPic .box3 p:nth-of-type(1) {text-align: center; font-size: 60px; height: 60px; position: absolute;left: 25%;top: 20%; z-index:99;}
+#content .pic .boPic .box3 p:nth-of-type(2) {text-align: center; font-size: 25px; height: 28px;position: absolute;top: 50%;left: 26%;  z-index:99;}
+#content .pic .boPic .box3 p:nth-of-type(3) {text-align: center; font-size: 18px;position: absolute;top: 62%;left: 3%; z-index:99;}
+#content .pic .boPic .box3 p:nth-of-type(4) {text-align: center; font-size: 25px;position: absolute;top: 80%;left: 43%; z-index:99;} 
+#content .pic .boPic .box3:hover{background: url(../images/Unknown-12.jpeg);background-size: 100% 100%; color: #fff;}
+#main{width: 100%;height: 759px;}
+#main .pic1{width: 335px; height: 253px; background: #fff; 
+ background: url(../images/xly_1.jpg); background-size: 100% 100%;transition: 2s;}
+#main .pic1 .hp{width: 338px; height: 253px; background: rgba(184,37,37,.7); display: none; }
+#main .pic1 p:nth-of-type(1) {color: #fff; font-size:22px; font-weight: bold;position: relative; top: -80px; left: 40px; display: none;}
+#main .pic1 p:nth-of-type(2) {color: #fff; font-size: 14px; letter-spacing:5px; position: relative;top:-60px;left: 40px; display: none;}
+#main .pic1:hover .hp{display: block;}
+#main .pic1:hover p{display: block;}
+#main .pic2{width: 338px; height: 253px; background: #fff; 
+ background: url(../images/Unknown-10.jpeg); background-size: 100% 100%;transition: 2s;}
+#main .pic2 .hp{width: 338px; height: 253px; background: rgba(184,37,37,.7); display: none; }
+#main .pic2 p:nth-of-type(1) {color: #fff; font-size:22px; font-weight: bold;position: relative; top: -80px; left: 40px; display: none;}
+#main .pic2 p:nth-of-type(2) {color: #fff; font-size: 14px; letter-spacing:5px; position: relative;top:-60px;left: 40px; display: none;}
+#main .pic2:hover .hp{display: block;}
+#main .pic2:hover p{display: block;}
+#main .pic3{width: 338px; height: 253px; background: #fff; 
+ background: url(../images/sq_8.jpg); background-size: 100% 100%;transition: 2s;}
+#main .pic3 .hp{width: 338px; height: 253px; background: rgba(184,37,37,.7); display: none; }
+#main .pic3 p:nth-of-type(1) {color: #fff; font-size:22px; font-weight: bold;position: relative; top: -80px; left: 40px; display: none;}
+#main .pic3 p:nth-of-type(2) {color: #fff; font-size: 14px; letter-spacing:5px; position: relative;top:-60px;left: 40px; display: none;}
+#main .pic3:hover .hp{display: block;}
+#main .pic3:hover p{display: block;}
+#main .pic4{width: 338px; height: 253px; background: #fff; 
+ background: url(../images/Unknown-8.jpeg); background-size: 100% 100%;transition: 2s;}
+#main .pic4 .hp{width: 338px; height: 253px; background: rgba(184,37,37,.7); display: none; }
+#main .pic4 p:nth-of-type(1) {color: #fff; font-size:22px; font-weight: bold;position: relative; top: -80px; left: 40px; display: none;}
+#main .pic4 p:nth-of-type(2) {color: #fff; font-size: 14px; letter-spacing:5px; position: relative;top:-60px;left: 40px; display: none;}
+#main .pic4:hover .hp{display: block;}
+#main .pic4:hover p{display: block;}
+#main .pic5{width: 335px; height: 253px; background: #fff; 
+ background: url(../images/Unknown-5.jpeg); background-size: 100% 100%;transition: 2s;}
+#main .pic5 .hp{width: 338px; height: 253px; background: rgba(184,37,37,.7); display: none; }
+#main .pic5 p:nth-of-type(1) {color: #fff; font-size:22px; font-weight: bold;position: relative; top: -80px; left: 40px; display: none;}
+#main .pic5 p:nth-of-type(2) {color: #fff; font-size: 14px; letter-spacing:5px; position: relative;top:-60px;left: 40px; display: none;}
+#main .pic5:hover .hp{display: block;}
+#main .pic5:hover p{display: block;}
+#main .pic6{width: 338px; height: 253px; background: #fff; 
+ background: url(../images/mlfh_1.jpg); background-size: 100% 100%;transition: 2s;}
+#main .pic6 .hp{width: 338px; height: 253px; background: rgba(184,37,37,.7); display: none; }
+#main .pic6 p:nth-of-type(1) {color: #fff; font-size:22px; font-weight: bold;position: relative; top: -80px; left: 40px; display: none;}
+#main .pic6 p:nth-of-type(2) {color: #fff; font-size: 14px; letter-spacing:5px; position: relative;top:-60px;left: 40px; display: none;}
+#main .pic6:hover .hp{display: block;}
+#main .pic6:hover p{display: block;}
+#main .pic7{width: 338px; height: 253px; background: #fff; 
+ background: url(../images/hong-10.jpg); background-size: 100% 100%;transition: 2s;}
+#main .pic7 .hp{width: 338px; height: 253px; background: rgba(184,37,37,.7); display: none; }
+#main .pic7 p:nth-of-type(1) {color: #fff; font-size:22px; font-weight: bold;position: relative; top: -80px; left: 40px; display: none;}
+#main .pic7 p:nth-of-type(2) {color: #fff; font-size: 14px; letter-spacing:5px; position: relative;top:-60px;left: 40px; display: none;}
+#main .pic7:hover .hp{display: block;}
+#main .pic7:hover p{display: block;}
+#main .pic8{width: 338px; height: 253px; background: #fff; 
+ background: url(../images/aaa.jpg); background-size: 100% 100%;transition: 2s;}
+#main .pic8 .hp{width: 338px; height: 253px; background: rgba(184,37,37,.7); display: none; }
+#main .pic8 p:nth-of-type(1) {color: #fff; font-size:22px; font-weight: bold;position: relative; top: -80px; left: 40px; display: none;}
+#main .pic8 p:nth-of-type(2) {color: #fff; font-size: 14px; letter-spacing:5px; position: relative;top:-60px;left: 40px; display: none;}
+#main .pic8:hover .hp{display: block;}
+#main .pic8:hover p{display: block;}
+#main .pic9{width: 335px; height: 253px; background: #fff; 
+ background: url(../images/Unknown-17.jpeg); background-size: 100% 100%;transition: 2s;}
+#main .pic9 .hp{width: 338px; height: 253px; background: rgba(184,37,37,.7); display: none; }
+#main .pic9 p:nth-of-type(1) {color: #fff; font-size:22px; font-weight: bold;position: relative; top: -80px; left: 40px; display: none;}
+#main .pic9 p:nth-of-type(2) {color: #fff; font-size: 14px; letter-spacing:5px; position: relative;top:-60px;left: 40px; display: none;}
+#main .pic9:hover .hp{display: block;}
+#main .pic9:hover p{display: block;}
+#main .pic10{width: 338px; height: 253px; background: #fff; 
+ background: url(../images/Unknown-6.jpeg); background-size: 100% 100%;transition: 2s;}
+#main .pic10 .hp{width: 338px; height: 253px; background: rgba(184,37,37,.7); display: none; }
+#main .pic10 p:nth-of-type(1) {color: #fff; font-size:22px; font-weight: bold;position: relative; top: -80px; left: 40px; display: none;}
+#main .pic10 p:nth-of-type(2) {color: #fff; font-size: 14px; letter-spacing:5px; position: relative;top:-60px;left: 40px; display: none;}
+#main .pic10:hover .hp{display: block;}
+#main .pic10:hover p{display: block;}
+#main .pic11{width: 338px; height: 253px; background: #fff; 
+ background: url(../images/_ZZZ0253-ps.jpg); background-size: 100% 100%;transition: 2s;}
+#main .pic11 .hp{width: 338px; height: 253px; background: rgba(184,37,37,.7); display: none; }
+#main .pic11 p:nth-of-type(1) {color: #fff; font-size:22px; font-weight: bold;position: relative; top: -80px; left: 40px; display: none;}
+#main .pic11 p:nth-of-type(2) {color: #fff; font-size: 14px; letter-spacing:5px; position: relative;top:-60px;left: 40px; display: none;}
+#main .pic11:hover .hp{display: block;}
+#main .pic11:hover p{display: block;}
+#main .pic12{width: 338px; height: 253px; background: #fff; 
+ background: url(../images/Unknown-16.jpeg); background-size: 100% 100%;transition: 2s;}
+#main .pic12 .hp{width: 338px; height: 253px; background: rgba(184,37,37,.7); display: none; }
+#main .pic12 p:nth-of-type(1) {color: #fff; font-size:22px; font-weight: bold;position: relative; top: -80px; left: 40px; display: none;}
+#main .pic12 p:nth-of-type(2) {color: #fff; font-size: 14px; letter-spacing:5px; position: relative;top:-60px;left: 40px; display: none;}
+#main .pic12:hover .hp{display: block;}
+#main .pic12:hover p{display: block;}
+.botWord{width: 100%; height: 250px; background: #D81212; }
+.botWord p:nth-of-type(1) {color: #fff; font-size: 35px; text-align: center; line-height: 250px;}
+.botWord p:nth-of-type(2) {color: #fff; font-size: 15px; text-align: center; position: relative; top: -100px;}
+#cont{width: 100%;height: 318px; background: red;}
+#cont .pic1{width: 450px;height: 318px; background: url(../images/Unknown-14.jpeg);background-size: 100% 100%;position: relative;}
+#cont .hp{width: 450px; height: 318px;background: rgba(113,7,9,.8); display: none; position: absolute;}
+#cont .pic1 p:nth-of-type(1) {color: #fff; font-size: 25px; text-align: center; position: relative;top: 150px; z-index: 999;}
+#cont .pic1 p:nth-of-type(2) {color: #fff; font-size: 14px;text-align: center;position: relative;top: 155px; z-index: 999;}
+#cont .pic1:hover .hp{display: block;}
+ #cont .pic2{width: 450px;height: 318px; background: url(../images/Unknown-13.jpeg);background-size: 100% 100%;position: relative;}
+#cont .hp{width: 450px; height: 318px;background: rgba(113,7,9,.8); display: none; position: absolute;}
+#cont .pic2 p:nth-of-type(1) {color: #fff; font-size: 25px; text-align: center;position: relative;top: 150px;z-index: 999;}
+#cont .pic2 p:nth-of-type(2) {color: #fff; font-size: 14px;text-align: center;position: relative; top:155px;z-index: 999;}
+#cont .pic2:hover .hp{display: block;} 
+#cont .pic3{width: 449px;height: 318px; background: url(../images/Unknown-15.jpeg);background-size: 100% 100%;z-index: 999;}
+#cont .hp{width: 450px; height: 318px;background: rgba(113,7,9,.8); display: none;position: absolute;}
+#cont .pic3 p:nth-of-type(1) {color: #fff; font-size: 25px; text-align: center;position: relative;top: 150px;z-index: 999; }
+#cont .pic3 p:nth-of-type(2) {color: #fff; font-size: 14px;text-align: center;position: relative; top:155px;} 
+#cont .pic3:hover .hp{display: block;} 
+#bot{width: 100%; height: 1200px; background: #171717;}
+#bot .topWord{width: 100%;height: 200px; }
+#bot .topWord p:nth-of-type(1) {color: #fff; font-size: 35px; text-align: center;position: relative;top: 90px;}
+#bot .topWord p:nth-of-type(2) {color: #fff; font-size: 14px;text-align: center;position: relative;top: 105px;}
+#bot .WordS{width: 100%;height: 500px;}
+#bot .WordS .word1{width: 400px;height: 400px;  margin-left: 80px;}
+#bot .WordS .word1 .axb{width: 300px; height: 300px;margin-left: 50px; border-right:1px solid #ccc; padding-right: 50px; } 
+#bot .WordS .word1 .axb a:nth-of-type(1) {display: block; width: 300px;height: 14px; font-size: 14px; color: #ccc;}
+#bot .WordS .word1 .axb a:nth-of-type(2) {display: block; color: #fff;font-size: 25px; margin-top: 10px;height: 30px;line-height: 30px;}
+#bot .WordS .word1 .axb a:nth-of-type(3) {display: block; color: #999999; margin-top: 50px;}
+#bot .WordS .word2{width: 400px;height: 400px; }
+#bot .WordS .word2 .axb2{width: 300px; height: 300px;margin-left: 50px; border-right:1px solid #ccc; padding-right: 50px; } 
+#bot .WordS .word2 .axb2 a:nth-of-type(1) {display: block; width: 300px;height: 14px; font-size: 14px; color: #ccc;}
+#bot .WordS .word2 .axb2 a:nth-of-type(2) {display: block; color: #fff;font-size: 25px; margin-top: 10px;height: 30px;line-height: 30px;}
+#bot .WordS .word2 .axb2 a:nth-of-type(3) {display: block; color: #999999; margin-top: 50px;}
+#bot .WordS .word3{width: 400px;height: 400px;}
+#bot .WordS .word3 .axb3{width: 300px; height: 300px;margin-left: 50px;} 
+#bot .WordS .word3 .axb3 a:nth-of-type(1) {display: block; width: 300px;height: 14px; font-size: 14px; color: #ccc;}
+#bot .WordS .word3 .axb3 a:nth-of-type(2) {display: block; color: #fff;font-size: 25px; margin-top: 10px;height: 30px;line-height: 30px;}
+#bot .WordS .word3 .axb3 a:nth-of-type(3) {display: block; color: #999999; margin-top: 50px;}
+#bot .WordS .word4{width: 400px;height: 400px; border-top: 1px solid #ccc;border-right: 1px solid #ccc;  margin-left: 80px; margin-top: 10px;}
+#bot .WordS .word4 .axb4{width: 300px; height: 300px;margin-left: 50px; margin-top: 50px;} 
+#bot .WordS .word4 .axb4 a:nth-of-type(1) {display: block; width: 300px;height: 14px; font-size: 14px; color: #ccc;}
+#bot .WordS .word4 .axb4 a:nth-of-type(2) {display: block; color: #fff;font-size: 25px; margin-top: 10px;height: 30px;line-height: 30px;}
+#bot .WordS .word4 .axb4 a:nth-of-type(3) {display: block; color: #999999; margin-top: 50px;}
+#bot .WordS .word5{width: 400px;height: 400px; border-top: 1px solid #ccc;border-right: 1px solid #ccc;  margin-top: 10px;}
+#bot .WordS .word5 .axb5{width: 300px; height: 300px;margin-left: 50px; margin-top: 50px;} 
+#bot .WordS .word5 .axb5 a:nth-of-type(1) {display: block; width: 300px;height: 14px; font-size: 14px; color: #ccc;}
+#bot .WordS .word5 .axb5 a:nth-of-type(2) {display: block; color: #fff;font-size: 25px; margin-top: 10px;height: 30px;line-height: 30px;}
+#bot .WordS .word5 .axb5 a:nth-of-type(3) {display: block; color: #999999; margin-top: 50px;}
+#bot .WordS .word6{width: 400px;height: 400px; border-top: 1px solid #ccc;margin-top: 10px;}
+#bot .WordS .word6 .axb6{width: 300px; height: 300px;margin-left: 50px; margin-top: 50px;} 
+#bot .WordS .word6 .axb6 a:nth-of-type(1) {display: block; width: 300px;height: 14px; font-size: 14px; color: #ccc;}
+#bot .WordS .word6 .axb6 a:nth-of-type(2) {display: block; color: #fff;font-size: 25px; margin-top: 10px;height: 30px;line-height: 30px;}
+#bot .WordS .word6 .axb6 a:nth-of-type(3) {display: block; color: #999999; margin-top: 50px;}
+#hz{width: 100%;height: 600px;}
+#hz .tw{width: 100%;height: 200px; margin-top: 50px;}
+#hz .tw p:nth-of-type(1) {color: #fff;font-size: 35px; text-align: center;position: relative; top: 80px;}
+#hz .tw p:nth-of-type(2) {color: #fff; font-size:14px; text-align: center;position: relative; top:90px; }
+#hz .bpic{width: 100%;height: 300px;}
+#hz .bpic img{margin-left: 100px;}
+#bopic{width: 100%;height: 700px;}
+#bopic .fpic{width: 50%;height: 700px;}
+#bopic .fpic p:nth-of-type(1){color: #fff;font-size: 80px; margin-top: 60px; text-align: center;}
+#bopic .fpic p:nth-of-type(2){color: #fff;font-size: 80px; margin-top: 60px; text-align: center;}
+#bopic .fpic p:nth-of-type(3){color: #fff;font-size: 80px; margin-top: 60px; text-align: center;} 
+#bopic .fpic p:nth-of-type(4){color: #fff;font-size: 80px; margin-top: 60px; text-align: center;}
+#bopic .rpic{width: 50%;height: 700px; background: url(../images/Unknown-3.jpeg);background-size: 100% 100%;}
+#footer{width: 100%;height: 200px; }
+#footer .foo{width: 90%;height: 100px;  margin: 50px auto;}
+#footer .foo p:nth-of-type(1) {color: #fff; font-size: 15px;}
+#footer .foo p:nth-of-type(2) {color: #ccc;word-spacing:20px; margin-bottom: 20px;}
+#footer .foo p:nth-of-type(3) {color: #ccc;margin-top: 20px;}
+#footer .foo p:nth-of-type(4) {color: #fff; margin-top: -20px;}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

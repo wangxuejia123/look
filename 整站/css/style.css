@@ -1,0 +1,209 @@
+@charset "utf-8";
+/* CSS Document */
+body,ul,li,p,h1,h2,h3,h4,h5,h6{ margin:0; padding:0}
+body{ font-size:12px; line-height:1.7em; color:#666;}
+ul{ list-style:none}
+img{ border:none}
+a{ text-decoration:none; color:black;}
+a:hover{ text-decoration:none;}
+.fl{ float:left}
+.fr{ float:right}
+.clear{ clear:both; overflow:hidden; height:0}
+.center{ width:1000px; margin:0 auto;}
+a:hover img {
+	filter: alpha(opacity=80);
+	opacity: 0.8;
+	-webkit-transition: all .2s linear;
+	-moz-transition: all .2s linear;
+	-ms-transition: all .2s linear;
+	transition: all .2s linear;
+}
+#header{width: 100%;height: 350px; background: #999;
+ background: url(../images/Unknown-4.jpeg)no-repeat;background-size: 100%;}
+#header .nav{padding: 10px;}
+#header .nav .pic1 img{width: 180px; padding-left: 50px;}
+#header .nav .right{margin-right: 80px;  margin-top: 10px;}
+#header .nav .right ul{float: left; height: 20px;
+ overflow: hidden;margin-right: 30px;position: relative;transition: 10s; }
+#header .nav .right li{line-height: 20px;text-align:center;
+	position: relative; width: 100px;}
+#header .nav .right ul li a{color: #fff;font-size: 18px;}
+#header .nav .right ul:hover li{top: -20px;}
+#header .nav .right ul:hover li a{color: red;}
+#main{width: 100%; height: 1300px;}
+#main .nav{width: 100%;height: 50px;}
+#main .nav ul li{float: left;font-size: 14px; line-height: 50px; margin-left: 20px;}
+#main .nav ul li:nth-of-type(1) {margin-left: 80px; margin-top: 5px;}
+#main .nav ul li:nth-of-type(2) {margin-left: 25px;}
+#main .nav ul li:hover a{color: red;transition: .5s;}
+#main .pic{width: 100%; height: 850px; }
+#main .pic .pic1{width: 275px; height: 206px; margin-top: 40px;
+background: url(../images/qtr1.jpeg); background-size: 100% 100%;position: relative; margin-left: -20px; }
+#main .pic .pic1 .hp{background:rgba(184,37,37,.8); width: 278px; height: 206px;position: absolute; display: none;}
+#main .pic .pic1 img{width: 100px; position: absolute; top: 40px; left: 90px; display: none;}
+#main .pic .pic1 p{color: #fff;position: absolute;top: 160px;left: 70px; display: none;font-size: 16px;}
+#main .pic .pic1:hover .hp{display: block; transition: 1s;}
+#main .pic .pic1:hover img{display: block;transition: 1s;}
+#main .pic .pic1:hover p{display: block;transition: 1s;}
+#main .pic .pic2{width: 275px; height: 206px; margin-top: 40px;
+background: url(../images/qtr3.jpeg); background-size: 100% 100%;position: relative; margin-left: 20px; }
+#main .pic .pic2 .hp{background:rgba(184,37,37,.8); width: 278px; height: 206px;position: absolute; display: none;}
+#main .pic .pic2 img{width: 120px; position: absolute; top: 50px; left: 80px; display: none;}
+#main .pic .pic2 p{color: #fff;position: absolute;top: 160px;left: 70px; display: none; font-size: 16px;}
+#main .pic .pic2:hover .hp{display: block; transition: 1s;}
+#main .pic .pic2:hover img{display: block;transition: 1s;}
+#main .pic .pic2:hover p{display: block;transition: 1s;}
+#main .pic .pic3{width: 275px; height: 206px; margin-top: 40px;
+background: url(../images/qtr5.png); background-size: 100% 100%;position: relative; margin-left: 20px; }
+#main .pic .pic3 .hp{background:rgba(184,37,37,.8); width: 278px; height: 206px;position: absolute; display: none;}
+#main .pic .pic3 img{width: 120px; position: absolute; top: 50px; left: 80px; display: none;}
+#main .pic .pic3 p{color: #fff;position: absolute;top: 160px;left: 50px; display: none; font-size: 16px;}
+#main .pic .pic3:hover .hp{display: block; transition: 1s;}
+#main .pic .pic3:hover img{display: block;transition: 1s;}
+#main .pic .pic3:hover p{display: block;transition: 1s;}
+#main .pic .pic4{width: 275px; height: 206px; margin-top: 40px;
+background: url(../images/qtr6.jpeg); background-size: 100% 100%;position: relative; margin-left: 20px; }
+#main .pic .pic4 .hp{background:rgba(184,37,37,.8); width: 278px; height: 206px;position: absolute; display: none;}
+#main .pic .pic4 img{width: 130px; position: absolute; top: 60px; left: 70px; display: none;}
+#main .pic .pic4 p{color: #fff;position: absolute;top: 160px;left: 80px; display: none; font-size: 16px;}
+#main .pic .pic4:hover .hp{display: block; transition: 1s;}
+#main .pic .pic4:hover img{display: block;transition: 1s;}
+#main .pic .pic4:hover p{display: block;transition: 1s;}
+#main .pic .pic5{width: 275px; height: 206px; margin-top: 40px;
+background: url(../images/qtr8.jpeg); background-size: 100% 100%;position: relative; margin-left: 80px; }
+#main .pic .pic5 .hp{background:rgba(184,37,37,.8); width: 278px; height: 206px;position: absolute; display: none;}
+#main .pic .pic5 img{width: 100px; position: absolute; top: 40px; left: 90px; display: none;}
+#main .pic .pic5 p{color: #fff;position: absolute;top: 130px;left: 5px; display: none; font-size: 16px;}
+#main .pic .pic5:hover .hp{display: block; transition: 1s;}
+#main .pic .pic5:hover img{display: block;transition: 1s;}
+#main .pic .pic5:hover p{display: block;transition: 1s;}
+#main .pic .pic6{width: 275px; height: 206px; margin-top: 40px;
+background: url(../images/qtr10.jpeg); background-size: 100% 100%;position: relative; margin-left: 20px; }
+#main .pic .pic6 .hp{background:rgba(184,37,37,.8); width: 278px; height: 206px;position: absolute; display: none;}
+#main .pic .pic6 img{width: 80px; position: absolute; top: 40px; left: 90px; display: none;}
+#main .pic .pic6 p{color: #fff;position: absolute;top: 160px;left: 85px; display: none; font-size: 16px;}
+#main .pic .pic6:hover .hp{display: block; transition: 1s;}
+#main .pic .pic6:hover img{display: block;transition: 1s;}
+#main .pic .pic6:hover p{display: block;transition: 1s;}
+#main .pic .pic7{width: 275px; height: 206px; margin-top: 40px;
+background: url(../images/qtr12.jpeg); background-size: 100% 100%;position: relative; margin-left: 20px; }
+#main .pic .pic7 .hp{background:rgba(184,37,37,.8); width: 278px; height: 206px;position: absolute; display: none;}
+#main .pic .pic7 img{width: 100px; position: absolute; top: 50px; left: 90px; display: none;}
+#main .pic .pic7 p{color: #fff;position: absolute;top: 150px;left: 60px; display: none; font-size: 16px;}
+#main .pic .pic7:hover .hp{display: block; transition: 1s;}
+#main .pic .pic7:hover img{display: block;transition: 1s;}
+#main .pic .pic7:hover p{display: block;transition: 1s;}
+#main .pic .pic8{width: 275px; height: 206px; margin-top: 40px;
+background: url(../images/qtr14.jpeg); background-size: 100% 100%;position: relative; margin-left: 20px; }
+#main .pic .pic8 .hp{background:rgba(184,37,37,.8); width: 278px; height: 206px;position: absolute; display: none;}
+#main .pic .pic8 img{width: 180px; position: absolute; top: 50px; left: 50px; display: none;}
+#main .pic .pic8 p{color: #fff;position: absolute;top: 150px;left: 80px; display: none; font-size: 16px;}
+#main .pic .pic8:hover .hp{display: block; transition: 1s;}
+#main .pic .pic8:hover img{display: block;transition: 1s;}
+#main .pic .pic8:hover p{display: block;transition: 1s;}
+#main .pic .pic9{width: 275px; height: 206px; margin-top: 40px;
+background: url(../images/qtr16.jpeg); background-size: 100% 100%;position: relative; margin-left: 80px; }
+#main .pic .pic9 .hp{background:rgba(184,37,37,.8); width: 278px; height: 206px;position: absolute; display: none;}
+#main .pic .pic9 img{width: 230px; position: absolute; top: 50px; left: 30px; display: none;}
+#main .pic .pic9 p{color: #fff;position: absolute;top: 150px;left: 60px; display: none; font-size: 16px;}
+#main .pic .pic9:hover .hp{display: block; transition: 1s;}
+#main .pic .pic9:hover img{display: block;transition: 1s;}
+#main .pic .pic9:hover p{display: block;transition: 1s;}
+#main .pic .pic10{width: 275px; height: 206px; margin-top: 40px;
+background: url(../images/qtr18.jpeg); background-size: 100% 100%;position: relative; margin-left: 20px; }
+#main .pic .pic10 .hp{background:rgba(184,37,37,.8); width: 278px; height: 206px;position: absolute; display: none;}
+#main .pic .pic10 img{width: 230px; position: absolute; top: 50px; left: 30px; display: none;}
+#main .pic .pic10 p{color: #fff;position: absolute;top: 150px;left: 60px; display: none; font-size: 16px;}
+#main .pic .pic10:hover .hp{display: block; transition: 1s;}
+#main .pic .pic10:hover img{display: block;transition: 1s;}
+#main .pic .pic10:hover p{display: block;transition: 1s;}
+#main .pic .pic11{width: 275px; height: 206px; margin-top: 40px;
+background: url(../images/qtr20.jpeg); background-size: 100% 100%;position: relative; margin-left: 20px; }
+#main .pic .pic11 .hp{background:rgba(184,37,37,.8); width: 278px; height: 206px;position: absolute; display: none;}
+#main .pic .pic11 img{width: 100px; position: absolute; top: 50px; left: 90px; display: none;}
+#main .pic .pic11 p{color: #fff;position: absolute;top: 150px;left: 60px; display: none; font-size: 16px;}
+#main .pic .pic11:hover .hp{display: block; transition: 1s;}
+#main .pic .pic11:hover img{display: block;transition: 1s;}
+#main .pic .pic11:hover p{display: block;transition: 1s;}
+#main .pic .pic12{width: 275px; height: 206px; margin-top: 40px;
+background: url(../images/_HAO1256-ps.jpg); background-size: 100% 100%;position: relative; margin-left: 20px; }
+#main .pic .pic12 .hp{background:rgba(184,37,37,.8); width: 278px; height: 206px;position: absolute; display: none;}
+#main .pic .pic12 img{width: 90px; position: absolute; top: 50px; left: 90px; display: none;}
+#main .pic .pic12 p{color: #fff;position: absolute;top: 150px;left: 60px; display: none; font-size: 16px;}
+#main .pic .pic12:hover .hp{display: block; transition: 1s;}
+#main .pic .pic12:hover img{display: block;transition: 1s;}
+#main .pic .pic12:hover p{display: block;transition: 1s;}
+#main .pic .pic13{width: 275px; height: 206px; margin-top: 40px;
+background: url(../images/FT-12.jpg); background-size: 100% 100%;position: relative; margin-left: 80px; }
+#main .pic .pic13 .hp{background:rgba(184,37,37,.8); width: 278px; height: 206px;position: absolute; display: none;}
+#main .pic .pic13 img{width: 250px; position: absolute; top: 80px; left: 10px; display: none;}
+#main .pic .pic13 p{color: #fff;position: absolute;top: 150px;left: 70px; display: none; font-size: 16px;}
+#main .pic .pic13:hover .hp{display: block; transition: 1s;}
+#main .pic .pic13:hover img{display: block;transition: 1s;}
+#main .pic .pic13:hover p{display: block;transition: 1s;}
+#main .pic .pic14{width: 275px; height: 206px; margin-top: 40px;
+background: url(../images/qtr24.jpeg); background-size: 100% 100%;position: relative; margin-left: 20px; }
+#main .pic .pic14 .hp{background:rgba(184,37,37,.8); width: 278px; height: 206px;position: absolute; display: none;}
+#main .pic .pic14 img{width: 220px; position: absolute; top: 70px; left: 30px; display: none;}
+#main .pic .pic14 p{color: #fff;position: absolute;top: 150px;left: 70px; display: none; font-size: 16px;}
+#main .pic .pic14:hover .hp{display: block; transition: 1s;}
+#main .pic .pic14:hover img{display: block;transition: 1s;}
+#main .pic .pic14:hover p{display: block;transition: 1s;}
+#main .pic .pic15{width: 275px; height: 206px; margin-top: 40px;
+background: url(../images/qtr26.jpeg); background-size: 100% 100%;position: relative; margin-left: 20px; }
+#main .pic .pic15 .hp{background:rgba(184,37,37,.8); width: 278px; height: 206px;position: absolute; display: none;}
+#main .pic .pic15 img{width: 220px; position: absolute; top: 70px; left: 30px; display: none;}
+#main .pic .pic15 p{color: #fff;position: absolute;top: 150px;left: 60px; display: none; font-size: 16px;}
+#main .pic .pic15:hover .hp{display: block; transition: 1s;}
+#main .pic .pic15:hover img{display: block;transition: 1s;}
+#main .pic .pic15:hover p{display: block;transition: 1s;}
+#main .pic .pic16{width: 275px; height: 206px; margin-top: 40px;
+background: url(../images/qtr28.jpeg); background-size: 100% 100%;position: relative; margin-left: 20px; }
+#main .pic .pic16 .hp{background:rgba(184,37,37,.8); width: 278px; height: 206px;position: absolute; display: none;}
+#main .pic .pic16 img{width: 100px; position: absolute; top: 60px; left: 90px; display: none;}
+#main .pic .pic16 p{color: #fff;position: absolute;top: 130px;left: 20px; display: none; font-size: 16px;}
+#main .pic .pic16:hover .hp{display: block; transition: 1s;}
+#main .pic .pic16:hover img{display: block;transition: 1s;}
+#main .pic .pic16:hover p{display: block;transition: 1s;}
+#footer{width: 100%;height: 200px; background:#000;}
+#footer .foo{width: 90%;height: 100px;  margin: 50px auto;}
+#footer .foo p:nth-of-type(1) {color: #fff; font-size: 15px;}
+#footer .foo p:nth-of-type(2) {color: #ccc;word-spacing:20px; margin-bottom: 20px;}
+#footer .foo p:nth-of-type(3) {color: #ccc;margin-top: 20px;}
+#footer .foo p:nth-of-type(4) {color: #fff; margin-top: -20px;}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

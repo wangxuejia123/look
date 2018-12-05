@@ -1,0 +1,83 @@
+@charset "utf-8";
+/* CSS Document */
+body,ul,li,p,h1,h2,h3,h4,h5,h6{ margin:0; padding:0}
+body{ font-size:12px; line-height:1.7em; color:#666;}
+ul{ list-style:none}
+img{ border:none}
+a{ text-decoration:none; color:black;}
+a:hover{ text-decoration:none;}
+.fl{ float:left}
+.fr{ float:right}
+.clear{ clear:both; overflow:hidden; height:0}
+.center{ width:1000px; margin:0 auto;}
+a:hover img {
+	filter: alpha(opacity=80);
+	opacity: 0.8;
+	-webkit-transition: all .2s linear;
+	-moz-transition: all .2s linear;
+	-ms-transition: all .2s linear;
+	transition: all .2s linear;
+}
+#header{width: 100%;height: 350px; background: #999;
+ background: url(../images/we1.jpeg)no-repeat;background-size: 100% 100%;}
+#header .nav{padding: 10px;}
+#header .nav .pic1 img{width: 180px; padding-left: 50px;}
+#header .nav .right{margin-right: 80px;  margin-top: 10px;}
+#header .nav .right ul{float: left; height: 20px;
+ overflow: hidden;margin-right: 30px;position: relative;transition: 10s; }
+#header .nav .right li{line-height: 20px;text-align:center;
+	position: relative; width: 100px;}
+#header .nav .right ul li a{color: #fff;font-size: 18px;}
+#header .nav .right ul:hover li{top: -20px;}
+#header .nav .right ul:hover li a{color: red;}
+#header .nav p:nth-of-type(1){font-size: 25px; color: #C0B2BD; margin-top: 200px; text-align: center;}
+#header .nav p:nth-of-type(2){font-size: 14px; color: #C0B2BD; margin-top: 5px; margin-left: 480px;}
+#main{width: 100%; height: 1000px;}
+#main .nav{width: 100%;height: 50px;}
+#main .nav ul li{float: left;font-size: 14px; line-height: 50px; margin-left: 20px;}
+#main .nav ul li:nth-of-type(1) {margin-left: 80px; margin-top: 5px;}
+#main .nav ul li:nth-of-type(2) {margin-left: 25px;}
+#main .nav ul li:hover a{color: red;transition: .5s;}
+#main .bot{width: 100%;height: 400px; margin-top: 40px;}
+#main .bot p:nth-of-type(1) {color: #000; font-size: 25px; text-align: center;height: 40px;}
+#main .bot p:nth-of-type(2) {color: #000; font-size: 25px; text-align: center;}
+#main .bot p:nth-of-type(3) {text-indent: 2em; width: 80%; margin-top: 20px; margin-left: 10%; font-size: 16px;}
+#main .bot p:nth-of-type(4) {text-indent: 2em; width: 80%; margin-top: 20px; margin-left: 10%; font-size: 16px;}
+#main .bot img{float: left; width: 50%; margin-top: 100px;}
+.bpic{width: 100%;height: 300px; margin-top: 50px;}
+.bpic p{font-size: 30px; color: #000; text-align: center;}
+.bpic img{margin-left: 100px;}
+#footer{width: 100%;height: 200px; background:#000;}
+#footer .foo{width: 90%;height: 100px;  margin: 50px auto;}
+#footer .foo p:nth-of-type(1) {color: #fff; font-size: 15px;}
+#footer .foo p:nth-of-type(2) {color: #ccc;word-spacing:20px; margin-bottom: 20px;}
+#footer .foo p:nth-of-type(3) {color: #ccc;margin-top: 20px;}
+#footer .foo p:nth-of-type(4) {color: #fff; margin-top: -20px;}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
